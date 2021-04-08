@@ -370,17 +370,13 @@ def main(arg):
 		                                                            oks.append(uid)
 															                                              
 														
-		except:
-			pass
+	   except:
+            pass
 		
-	
 	p = ThreadPool(30)
 	p.map(main, id)
-	print "\033[1;95m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;91mSayyed_Zakarya\033[1;95m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
-	print "  \033[1;91m«---•◈•---Developed By Sayyed-Zakarya--•◈•---»" #Dev:Sayyed-Zakarya
-	print '\033[1;95mProcess Has Been Completed Press➡ Type 0 Enter↩ Next Type 0 (logout)↩\033[1;97m....'
-        print '\033[1;95mNext Type (python2 Fb2.py) Next login facebook Start Cloning\033[1;97m....'
-	print"\033[1;92mTotal Live/\x1b[1;91mError \033[1;93m: \033[1;91m"+str(len(oks))+"\033[1;93m/\033[1;96m"+str(len(cekpoint))
+	print('')
+	print('[✓] Total CP/\033[1:32mOK:\033[0;97m  '+str(len(cps))+'/\033[;32m \033[0;97m'+str(len(oks)))
 	raw_input('Back ')
 	menu()
     
